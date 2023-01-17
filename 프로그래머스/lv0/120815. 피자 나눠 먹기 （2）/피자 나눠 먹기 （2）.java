@@ -15,3 +15,5 @@ class Solution {
         return answer;
     }
 }
+
+#if(6 * pizza % n ==0) 으로 수정가능
