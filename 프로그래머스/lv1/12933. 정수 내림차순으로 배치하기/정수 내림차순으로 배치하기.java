@@ -1,8 +1,7 @@
 import java.util.*;
 
 class Solution {
-    public long solution(long n) {
-        long answer = 0;
+    public long solution(long n) {        
         String[] temp = String.valueOf(n).split("");
         
         Arrays.sort(temp, Collections.reverseOrder());
