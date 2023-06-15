@@ -7,6 +7,7 @@ class Solution {
                 answer = "wrong pw";
                 if(db[i][1].equals(id_pw[1])){
                     answer = "login";
+                    break;
                 }
             }
         }
